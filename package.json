@@ -1,0 +1,21 @@
+{
+  "name": "urlshort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^8.7.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.23",
+    "nodemon": "^2.0.12"
+  }
+}
