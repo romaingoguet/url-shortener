@@ -15,7 +15,7 @@ router.get('/url/:slug', async (req, res, next) => {
     try {
         const slug = req.params.slug;
         const result = await db.getUrl(slug);
-        res.status(200).json(result.docs[0].data());
+        res.status(200).json(result);
     } catch (error) {
         next(error);
     }
